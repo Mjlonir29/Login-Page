@@ -17,7 +17,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     }
 });
 
-// Create smooth wavy motion for SVG
+
 const wavePath = document.getElementById("wave-path");
 const waveValues = [
     "M0,160L60,140C120,120,240,90,360,110C480,130,600,200,720,220C840,240,960,210,1080,180C1200,150,1320,100,1380,80L1440,60V320H0Z",
