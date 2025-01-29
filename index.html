@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Background Animation -->
+    <div class="animated-bg">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="red" fill-opacity="0.6" d="M0,160L60,144C120,128,240,96,360,112C480,128,600,192,720,213.3C840,235,960,213,1080,181.3C1200,149,1320,107,1380,85.3L1440,64V320H0Z">
+                <animate attributeName="d" dur="6s" repeatCount="indefinite"
+                    values="
+                    M0,160L60,140C120,120,240,90,360,110C480,130,600,200,720,220C840,240,960,210,1080,180C1200,150,1320,100,1380,80L1440,60V320H0Z;
+                    
+                    M0,140L80,160C160,180,320,220,480,210C640,200,800,140,960,120C1120,100,1280,140,1360,160L1440,180V320H0Z;
+                    
+                    M0,160L60,140C120,120,240,90,360,110C480,130,600,200,720,220C840,240,960,210,1080,180C1200,150,1320,100,1380,80L1440,60V320H0Z;">
+                </animate>
+            </path>
+        </svg>
+        
+        <!-- Wavy Rings -->
+        <div class="rings">
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <div class="ring"></div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">MyCoolSite</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Login Form -->
+    <div class="container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="input-box">
+                    <input type="text" id="username" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="password" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 MyCoolSite. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
