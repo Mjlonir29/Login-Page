@@ -15,6 +15,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
             window.location.href = "dashboard.html"; // Redirect after login
         }, 2000);
     } else {
+        
         message.style.color = "red";
         message.innerText = "Invalid Credentials!";
     }
