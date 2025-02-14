@@ -11,6 +11,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     if (username === "admin" && password === "1234") {
         
         message.style.color = "lime";
+        
         message.innerText = "Login Successful!";
         setTimeout(() => {
             window.location.href = "dashboard.html"; // Redirect after login
